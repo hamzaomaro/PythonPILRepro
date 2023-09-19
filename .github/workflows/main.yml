@@ -138,6 +138,8 @@ jobs:
 
           app-name: "PILRepro"
 
+          slot-name: "production"
+
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
 
           publish-profile: ${{ secrets.APP_PUBLISH_PROFILE }}
