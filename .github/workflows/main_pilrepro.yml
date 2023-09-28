@@ -65,6 +65,6 @@ jobs:
           app-name: 'PILRepro'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_336612B5F83F48E28096C788DC841A56 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD1C9A8E3CA348CBAF75980340A9D52B }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
